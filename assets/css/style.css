@@ -1,0 +1,162 @@
+
+/* ============ Global Style ============ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: system-ui;
+}
+
+body {
+  background-color: #222;
+  color: #FFF;
+  height: 6000px;
+}
+/* ============ / End Global Style ============ */
+
+.crud {
+  width: 90%;
+  margin: auto;
+}
+
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+/* =============== Inputs =============== */
+input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #111;
+  margin: 4px 0;
+  border-radius: 4px;
+  padding: 4px;
+  color: #FFF;
+}
+
+input::placeholder {
+  color: #FFF;
+}
+
+input:focus {
+  background-color: #000;
+  transform: scale(1.1);
+}
+
+.inputs .price input {
+  width: 20%;
+}
+
+#total {
+  background-color: #a00d02;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+#total::before {
+  content: 'Total: ';
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: #390053;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 20px;
+  transition: .4s;
+}
+
+button:hover {
+  background-color: #51025f;
+  letter-spacing: 1px;
+}
+/* =============== Outputs =============== */
+.brnSearch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brnSearch button {
+  width: 45%;
+}
+/* ===== Table Style ===== */
+table {
+  width: 100%;
+  margin: 10PX;
+  text-align: center;
+}
+
+table td{
+  text-transform: capitalize;
+  padding: 5px;
+}
+table button {
+  width: 80%;
+}
+
+table button:hover{
+  letter-spacing: 0;
+}
+
+#deleteAll {
+  margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
